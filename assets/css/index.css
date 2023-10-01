@@ -1,0 +1,333 @@
+/* ================== */
+/* ===== HEADER ===== */
+/* ================== */
+
+/* Laptops | Generic */
+
+header {
+    background-color: #F4EFFF;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+header #introduction {
+    font-size: 2rem;
+    font-weight: 400;
+}
+header #my_mission {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #4C1C62;
+}
+
+/* Tablets */
+
+@media (min-width: 595px) and (max-width: 1219px) {
+    header img {
+        width: 300px;
+    }
+    header #introduction {
+        font-size: 2.5rem;
+    }
+    header #my_mission {
+        font-size: 3.5rem;
+    }
+}
+
+/* Smartphones */
+
+@media (max-width: 594px) {
+    header #my_mission {
+        font-size: 2.1rem;
+    }
+}
+
+
+/* ==================== */
+/* ===== SERVICES ===== */
+/* ==================== */
+
+/* Laptops | Generic */
+
+#my_services {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#my_services h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    color: #4C1C62;
+}
+#my_services h3 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+#my_services h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #280B37;
+}
+#my_services p {
+    font-size: 13px;
+}
+#my_services .service {
+    background-color: #E1D8F7;
+    border-radius: 20px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    height: 160px;
+}
+#my_services .service_icon {
+    margin-left: 10px;
+    background-color: #F4EFFF;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#my_services .service_description {
+    padding-right: 25px;
+}
+
+/* Tablets */
+
+@media (min-width: 485px) and (max-width: 1499px) {
+    #my_services {
+        text-align: center;
+    }
+    #my_services h3 {
+        font-size: 1.7rem;
+    }
+    .service_description {
+        padding-left: 20px;
+    }
+    #my_services .service {
+        height: 150px;
+    }
+    #my_services p {
+        font-size: 16px;
+    }
+}
+
+/* Smartphones */
+
+@media (max-width: 484px) {
+    #my_services {
+        text-align: center;
+    }
+    #my_services h1 {
+        font-size: 4rem;
+    }
+    #my_services h3 {
+        font-size: 1.7rem;
+    }
+    .service_description {
+        padding-left: 20px;
+    }
+    #my_services .service {
+        height: 175px;
+    }
+    #my_services p {
+        font-size: 14px;
+    }
+}
+
+
+/* ==================== */
+/* ===== ABOUT ME ===== */
+/* ==================== */
+
+/* Laptops | Generic */
+
+#about_me {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#about_me h2 {
+    font-size: 6rem;
+    font-weight: 600;
+    color: #4C1C62;
+}
+#about_me p {
+    font-size: 16px;
+}
+
+/* Tablets */
+
+@media (min-width: 485px) and (max-width: 1499px) {
+    #about_me {
+        text-align: center;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+/* Smartphones */
+
+@media (max-width: 484px) {
+    #about_me {
+        text-align: center;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    #about_me h2 {
+        font-size: 4rem;
+    }
+}
+
+/* ========================= */
+/* ===== MY CURRICULUM ===== */
+/* ========================= */
+
+/* Laptops | Generic */
+#my_curriculum {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    background-color: #E1D8F7;
+}
+#my_curriculum h2 {
+    font-size: 6rem;
+    font-weight: 600;
+    color: #4C1C62;
+}
+#my_curriculum h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #4C1C62;
+}
+.curriculum_item_row {
+    height: 100px;
+}
+.curriculum_item {
+    text-align: center;
+    padding-top: 1.5%;
+    background-color: #280B37;
+    border-radius: 20px;
+    color: #E1D8F7;
+}
+.course {
+    font-size: 16px;
+}
+.experience {
+    font-size: 11px;
+}
+
+/* Tablets */
+
+@media (max-width: 1499px) {
+    #my_curriculum {
+        text-align: center;
+    }
+    #my_curriculum h2 {
+        font-size: 6rem;
+    }
+    #my_curriculum h3 {
+        font-size: 2.5rem;
+    }
+    #my_curriculum h4 {
+        font-size: 1.8rem;
+    }
+    .course {
+        font-size: 18px;
+    }
+    .experience {
+        font-size: 14px;
+    }
+}
+
+/* Smartphones */
+
+@media (max-width: 484px) {
+    #my_curriculum h2 {
+        font-size: 4rem;
+    }
+}
+
+
+/* ====================== */
+/* ===== LET'S TALK ===== */
+/* ====================== */
+
+/* Laptops | Generic */
+
+#letstalk {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+#letstalk img {
+    border-radius: 20px;
+}
+#letstalk h2 {
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: #4C1C62;
+}
+
+/* Tablets */
+
+@media (max-width: 1499px) {
+    #letstalk {
+        text-align: center;
+    }
+    #letstalk h2 {
+        font-size: 6rem;
+    }
+}
+
+/* Smartphones */
+
+@media (max-width: 484px) {
+    #letstalk h2 {
+        font-size: 4rem;
+    }
+}
+
+
+/* ======================== */
+/* ===== SOCIAL MEDIA ===== */
+/* ======================== */
+
+/* Laptops | Generic */
+
+#social_media {
+    background-color: #F4EFFF;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+#social_media h2 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #4C1C62;
+}
+
+/* Tablets */
+
+@media (max-width: 1499px) {
+    #social_media {
+        text-align: center;
+    }
+}
+
+/* Smartphones */
+
+@media (max-width: 484px) {
+    #social_media h2 {
+        font-size: 3rem;
+    }
+    #social_media a {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+/* ======================== */
+/* ===== LOCATION PIN ===== */
+/* ======================== */
+#location_pin {
+    display: flex;
+    justify-content: center;
+}
+
+#location_pin img {
+    width: 200px;
+}
