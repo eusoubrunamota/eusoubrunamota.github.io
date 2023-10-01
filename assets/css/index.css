@@ -257,12 +257,12 @@ header #my_mission {
         font-size: 1.2rem;
     }
     .course {
-        padding-top: 3%;
-        font-size: 12px;
+        padding-top: 2%;
+        font-size: 16px;
     }
     .experience {
-        padding-top: 3%;
-        font-size: 10px;
+        padding-top: 2%;
+        font-size: 14px;
     }
 }
 
