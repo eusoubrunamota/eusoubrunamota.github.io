@@ -131,10 +131,10 @@ header #my_mission {
         padding-left: 20px;
     }
     #my_services .service {
-        height: 175px;
+        height: 160px;
     }
     #my_services p {
-        font-size: 11px;
+        font-size: 13px;
     }
 }
 
