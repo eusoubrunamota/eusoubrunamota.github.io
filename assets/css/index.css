@@ -36,8 +36,11 @@ header #my_mission {
 /* Smartphones */
 
 @media (max-width: 594px) {
+    header #introduction {
+        font-size: 1.6rem;
+    }
     header #my_mission {
-        font-size: 2.1rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -99,13 +102,13 @@ header #my_mission {
         font-size: 1.7rem;
     }
     .service_description {
-        padding-left: 20px;
+        padding-left: 10px;
     }
     #my_services .service {
         height: 150px;
     }
     #my_services p {
-        font-size: 16px;
+        font-size: 11px;
     }
 }
 
@@ -116,10 +119,13 @@ header #my_mission {
         text-align: center;
     }
     #my_services h1 {
-        font-size: 4rem;
+        font-size: 3rem;
+    }
+    #my_services h2 {
+        font-size: 1.5rem;
     }
     #my_services h3 {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
     .service_description {
         padding-left: 20px;
@@ -128,7 +134,7 @@ header #my_mission {
         height: 175px;
     }
     #my_services p {
-        font-size: 14px;
+        font-size: 11px;
     }
 }
 
@@ -171,7 +177,10 @@ header #my_mission {
         padding-bottom: 4rem;
     }
     #about_me h2 {
-        font-size: 4rem;
+        font-size: 3rem;
+    }
+    #about_me p {
+        font-size: 1.2rem;
     }
 }
 
@@ -239,7 +248,21 @@ header #my_mission {
 
 @media (max-width: 484px) {
     #my_curriculum h2 {
-        font-size: 4rem;
+        font-size: 3rem;
+    }
+    #my_curriculum h3 {
+        font-size: 2rem;
+    }
+    #my_curriculum h4 {
+        font-size: 1.2rem;
+    }
+    .course {
+        padding-top: 5%;
+        font-size: 12px;
+    }
+    .experience {
+        padding-top: 5%;
+        font-size: 10px;
     }
 }
 
@@ -278,7 +301,7 @@ header #my_mission {
 
 @media (max-width: 484px) {
     #letstalk h2 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 
@@ -312,7 +335,7 @@ header #my_mission {
 
 @media (max-width: 484px) {
     #social_media h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     #social_media a {
         margin-top: 30px;
@@ -329,5 +352,5 @@ header #my_mission {
 }
 
 #location_pin img {
-    width: 200px;
+    width: 160px;
 }
